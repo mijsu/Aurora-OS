@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Aurora OS.js</string>
+    <string name="title_activity_main">Aurora OS.js</string>
+    <string name="package_name">com.auroraos.app</string>
+    <string name="custom_url_scheme">com.auroraos.app</string>
+</resources>

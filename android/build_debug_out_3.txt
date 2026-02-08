@@ -1,0 +1,86 @@
+
+> Configure project :app
+WARNING: Using flatDir should be avoided because it doesn't support any meta-data formats.
+
+> Configure project :capacitor-cordova-android-plugins
+WARNING: Using flatDir should be avoided because it doesn't support any meta-data formats.
+
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :app:javaPreCompileDebug UP-TO-DATE
+> Task :capacitor-android:preBuild UP-TO-DATE
+> Task :capacitor-android:preDebugBuild UP-TO-DATE
+> Task :capacitor-android:writeDebugAarMetadata UP-TO-DATE
+> Task :capacitor-community-http:preBuild UP-TO-DATE
+> Task :capacitor-community-http:preDebugBuild UP-TO-DATE
+> Task :capacitor-community-http:writeDebugAarMetadata UP-TO-DATE
+> Task :capacitor-cordova-android-plugins:preBuild UP-TO-DATE
+> Task :capacitor-cordova-android-plugins:preDebugBuild UP-TO-DATE
+> Task :capacitor-cordova-android-plugins:writeDebugAarMetadata UP-TO-DATE
+> Task :capacitor-filesystem:preBuild UP-TO-DATE
+> Task :capacitor-filesystem:preDebugBuild UP-TO-DATE
+> Task :capacitor-filesystem:writeDebugAarMetadata UP-TO-DATE
+> Task :capacitor-android:processDebugNavigationResources UP-TO-DATE
+> Task :capacitor-community-http:processDebugNavigationResources UP-TO-DATE
+> Task :capacitor-cordova-android-plugins:processDebugNavigationResources UP-TO-DATE
+> Task :app:checkDebugAarMetadata
+> Task :capacitor-filesystem:processDebugNavigationResources UP-TO-DATE
+> Task :app:processDebugNavigationResources UP-TO-DATE
+> Task :app:compileDebugNavigationResources UP-TO-DATE
+> Task :app:generateDebugResValues UP-TO-DATE
+> Task :capacitor-android:generateDebugResValues UP-TO-DATE
+> Task :capacitor-android:generateDebugResources
+> Task :capacitor-android:packageDebugResources
+> Task :capacitor-community-http:generateDebugResValues
+> Task :capacitor-community-http:generateDebugResources
+> Task :capacitor-community-http:packageDebugResources
+> Task :capacitor-cordova-android-plugins:generateDebugResValues
+> Task :capacitor-cordova-android-plugins:generateDebugResources
+> Task :capacitor-cordova-android-plugins:packageDebugResources
+> Task :capacitor-filesystem:generateDebugResValues
+> Task :capacitor-filesystem:generateDebugResources
+> Task :capacitor-filesystem:packageDebugResources
+> Task :app:mapDebugSourceSetPaths
+> Task :app:generateDebugResources
+> Task :app:packageDebugResources
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:extractDeepLinksDebug
+> Task :capacitor-android:extractDeepLinksDebug
+> Task :app:mergeDebugResources
+> Task :app:parseDebugLocalResources
+> Task :capacitor-community-http:extractDeepLinksDebug
+> Task :capacitor-android:processDebugManifest
+
+> Task :capacitor-community-http:processDebugManifest FAILED
+Incorrect package="com.getcapacitor.http.http" found in source AndroidManifest.xml: C:\Users\marjames\Aurora-OS.js\node_modules\@capacitor-community\http\android\src\main\AndroidManifest.xml.
+Setting the namespace via the package attribute in the source AndroidManifest.xml is no longer supported.
+Recommendation: remove package="com.getcapacitor.http.http" from the source AndroidManifest.xml: C:\Users\marjames\Aurora-OS.js\node_modules\@capacitor-community\http\android\src\main\AndroidManifest.xml.
+
+> Task :capacitor-cordova-android-plugins:extractDeepLinksDebug
+
+[Incubating] Problems report is available at: file:///C:/Users/marjames/Aurora-OS.js/android/build/reports/problems/problems-report.html
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':capacitor-community-http:processDebugManifest'.
+> A failure occurred while executing com.android.build.gradle.tasks.ProcessLibraryManifest$ProcessLibWorkAction
+   > Incorrect package="com.getcapacitor.http.http" found in source AndroidManifest.xml: C:\Users\marjames\Aurora-OS.js\node_modules\@capacitor-community\http\android\src\main\AndroidManifest.xml.
+     Setting the namespace via the package attribute in the source AndroidManifest.xml is no longer supported.
+     Recommendation: remove package="com.getcapacitor.http.http" from the source AndroidManifest.xml: C:\Users\marjames\Aurora-OS.js\node_modules\@capacitor-community\http\android\src\main\AndroidManifest.xml.
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.14.3/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD FAILED in 2s
+37 actionable tasks: 24 executed, 13 up-to-date
